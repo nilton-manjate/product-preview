@@ -543,3 +543,173 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-\[241px\] {
+  height: 241px;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-\[343px\] {
+  width: 343px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-t-xl {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.rounded-b-xl {
+  border-bottom-right-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+}
+
+.bg-cream {
+  --tw-bg-opacity: 1;
+  background-color: hsl(30 38% 92% / var(--tw-bg-opacity));
+}
+
+.bg-darkCyan {
+  --tw-bg-opacity: 1;
+  background-color: hsl(158 36% 37% / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.font-fraunces {
+  font-family: Fraunces, sans-serif;
+}
+
+.font-montserrat {
+  font-family: Montserrat, sans-serif;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
+.text-darkCyan {
+  --tw-text-opacity: 1;
+  color: hsl(158 36% 37% / var(--tw-text-opacity));
+}
+
+.text-darkGrayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(228 12% 48% / var(--tw-text-opacity));
+}
+
+.text-veryDarkBlue {
+  --tw-text-opacity: 1;
+  color: hsl(212 21% 14% / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
+}
+
+.line-through {
+  text-decoration-line: line-through;
+}
+
+.duration-700 {
+  transition-duration: 700ms;
+}
+
+.hover\:bg-hoverColor:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 64 49 / var(--tw-bg-opacity));
+}
