@@ -560,6 +560,14 @@ video {
   margin-bottom: 2.25rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -600,22 +608,16 @@ video {
   gap: 1.25rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded-t-xl {
-  border-top-left-radius: 0.75rem;
-  border-top-right-radius: 0.75rem;
-}
-
-.rounded-b-xl {
-  border-bottom-right-radius: 0.75rem;
-  border-bottom-left-radius: 0.75rem;
 }
 
 .bg-cream {
@@ -631,6 +633,15 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.bg-mobile {
+  background-image: url('../images/image-product-mobile.jpg');
 }
 
 .bg-cover {
@@ -669,6 +680,23 @@ video {
   line-height: 1.25rem;
 }
 
+.text-\[13px\] {
+  font-size: 13px;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-\[34px\] {
+  font-size: 34px;
+}
+
+.text-\[35px\] {
+  font-size: 35px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -677,8 +705,28 @@ video {
   font-weight: 500;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
+}
+
 .tracking-widest {
   letter-spacing: 0.1em;
+}
+
+.tracking-\[6px\] {
+  letter-spacing: 6px;
+}
+
+.tracking-\[5px\] {
+  letter-spacing: 5px;
 }
 
 .text-darkCyan {
@@ -712,4 +760,72 @@ video {
 .hover\:bg-hoverColor:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(26 64 49 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .sm\:mb-\[27px\] {
+    margin-bottom: 27px;
+  }
+
+  .sm\:mb-\[32px\] {
+    margin-bottom: 32px;
+  }
+
+  .sm\:grid {
+    display: grid;
+  }
+
+  .sm\:h-\[451px\] {
+    height: 451px;
+  }
+
+  .sm\:w-\[600px\] {
+    width: 600px;
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:bg-desktop {
+    background-image: url('../images/image-product-desktop.jpg');
+  }
+
+  .sm\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .sm\:pb-8 {
+    padding-bottom: 2rem;
+  }
+
+  .sm\:pt-9 {
+    padding-top: 2.25rem;
+  }
+
+  .sm\:pt-7 {
+    padding-top: 1.75rem;
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:text-\[33px\] {
+    font-size: 33px;
+  }
+
+  .sm\:text-\[34px\] {
+    font-size: 34px;
+  }
+
+  .sm\:tracking-widest {
+    letter-spacing: 0.1em;
+  }
 }
